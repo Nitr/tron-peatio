@@ -30,8 +30,8 @@ Gem::Specification.new do |spec|
   spec.add_dependency "digest-sha3", "~> 1.1.0"
   spec.add_dependency "ed25519"
   spec.add_dependency "ffi"
-  spec.add_dependency "peatio", ">= 2.6.5"
-  spec.add_dependency 'net-http-persistent', '~> 3.0.1'
+  spec.add_dependency "peatio", ">= 2.6.1"
+  spec.add_dependency 'net-http-persistent', '~> 4.0.1'
 
   spec.add_development_dependency "bundler", ">= 1.3.0"
   spec.add_development_dependency "mocha", "~> 1.8"
